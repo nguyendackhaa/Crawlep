@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="icon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8F5E8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="120" fill="url(#bg)" stroke="#1B5E20" stroke-width="8"/>
+  
+  <!-- Image icon -->
+  <rect x="80" y="60" width="96" height="72" rx="8" fill="url(#icon)" stroke="#2E7D32" stroke-width="3"/>
+  
+  <!-- Camera lens -->
+  <circle cx="128" cy="96" r="16" fill="#2E7D32" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="128" cy="96" r="8" fill="#FFFFFF"/>
+  
+  <!-- Download arrow -->
+  <path d="M 128 140 L 128 180 M 110 160 L 128 180 L 146 160" 
+        stroke="#2E7D32" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- WebP indicator -->
+  <text x="128" y="200" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="14" font-weight="bold" fill="#FFFFFF">WEBP</text>
+</svg>

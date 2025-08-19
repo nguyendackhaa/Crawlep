@@ -1,0 +1,12 @@
+# Ví dụ các link sản phẩm để test app
+# Mỗi link một dòng
+
+https://example.com/product1
+https://example.com/product2
+https://example.com/product3
+
+# Bạn có thể thay thế bằng các link thực tế của mình
+# Ví dụ:
+# https://shopee.vn/product/123
+# https://tiki.vn/product/456
+# https://lazada.vn/product/789
